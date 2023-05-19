@@ -1,167 +1,164 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#   * pos_order_mgmt
+# 	* pos_order_mgmt
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-15 20:54+0000\n"
-"PO-Revision-Date: 2020-03-19 11:13+0000\n"
-"Last-Translator: Simon Mas <simon.mas@druidoo.io>\n"
-"Language-Team: \n"
-"Language: fr\n"
+"PO-Revision-Date: 2023-05-08 12:17+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"Language-Team: none\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_copy_done_order
 msgid "Allows to duplicate already done orders in the frontend"
-msgstr "Autoriser à dupliquer des commandes réalisées dans l'interface tactile"
+msgstr "Permette di duplicare ordini già fatti nel frontend"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_return_done_order
 msgid "Allows to return already done orders in the frontend"
-msgstr ""
+msgstr "Consente di rendere ordini già evasi nel frontend"
 
 #. module: pos_order_mgmt
 #. openerp-web
 #: code:addons/pos_order_mgmt/static/src/xml/CopyOrderButton.xml:0
 #, python-format
 msgid "Copy Order"
-msgstr ""
+msgstr "Copia ordine"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__display_name
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_copy_done_order
 msgid "Duplicate Orders"
-msgstr "Copier une commande réalisée"
+msgstr "Ordini duplicati"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__id
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config____last_update
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Ultima modifica il"
 
 #. module: pos_order_mgmt
 #: model:ir.model,name:pos_order_mgmt.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Paramétrage du point de vente"
+msgstr "Configurazione punto vendita"
 
 #. module: pos_order_mgmt
 #: model:ir.model,name:pos_order_mgmt.model_pos_order
 msgid "Point of Sale Orders"
-msgstr "Commandes du point de vente"
+msgstr "Ordini punto vendita"
 
 #. module: pos_order_mgmt
 #. openerp-web
 #: code:addons/pos_order_mgmt/static/src/js/RefundOrderButton.js:0
 #, python-format
 msgid "Refund "
-msgstr "Rembourse "
+msgstr "Reso "
 
 #. module: pos_order_mgmt
 #. openerp-web
 #: code:addons/pos_order_mgmt/static/src/xml/RefundOrderButton.xml:0
 #, python-format
 msgid "Refund Order"
-msgstr ""
+msgstr "Ordine di reso"
 
 #. module: pos_order_mgmt
 #: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_return_done_order
 msgid "Return Orders"
-msgstr "Commande retournée"
+msgstr "Ordini di reso"
 
 #~ msgid "Allows to manage already done orders in the frontend."
-#~ msgstr ""
-#~ "Autoriser à rembourser des commandes réalisées dans l'interface tactile."
+#~ msgstr "Permette di gestire ordini già fatti nel frontend."
 
 #, python-format
 #~ msgid "Amount"
-#~ msgstr "Total"
+#~ msgstr "Importo"
 
 #, python-format
 #~ msgid "Back"
-#~ msgstr "Retour"
+#~ msgstr "Indietro"
 
 #, python-format
 #~ msgid "Can not execute this action because the POS is currently offline"
 #~ msgstr ""
-#~ "Vous ne pouvez pas exécuter cette action, car le Point de Vente est "
-#~ "actuellement hors ligne"
+#~ "Impossibile eseguire questa azione perchè il POS è attualmente offline"
 
 #, python-format
 #~ msgid "Connection error"
-#~ msgstr "Erreur de connexion"
+#~ msgstr "Errore di connessione"
 
 #, python-format
 #~ msgid "Create a new order based on this one"
-#~ msgstr "Créer une nouvelle commande basée sur celle-ci"
+#~ msgstr "Creare un nuovo ordine basato su questo"
 
 #, python-format
 #~ msgid "Create a refund order of this order"
-#~ msgstr "Rembourser cette commande"
+#~ msgstr "Creare un reso di quest'ordine"
 
 #, python-format
 #~ msgid "Customer"
-#~ msgstr "Client"
+#~ msgstr "Cliente"
 
 #, python-format
 #~ msgid "DUPLICATE"
-#~ msgstr "DUPLICATA"
+#~ msgstr "DUPLICATO"
 
 #, python-format
 #~ msgid "Date"
-#~ msgstr "Date"
+#~ msgstr "Data"
 
 #, python-format
 #~ msgid "Print a duplicate for this order"
-#~ msgstr "Imprimer un duplicata de cette commande"
+#~ msgstr "Stampare un duplicato di quest'ordine"
 
 #, python-format
 #~ msgid "Rectifies:"
-#~ msgstr "Rectifie : "
+#~ msgstr "Rettifica:"
 
 #, python-format
 #~ msgid "Ref."
-#~ msgstr "Réf."
+#~ msgstr "Rif."
 
 #~ msgid "Reference of the returned Order"
-#~ msgstr "Réference de la vente retournée"
+#~ msgstr "Riferimento del reso"
 
 #~ msgid "Refund Orders"
-#~ msgstr "Commandes remboursées"
+#~ msgstr "Ordini di reso"
 
 #~ msgid "Refund Orders Quantity"
-#~ msgstr "Nombre de remboursements"
+#~ msgstr "Quantità ordini di reso"
 
 #~ msgid "Refunds"
-#~ msgstr "Remboursements"
+#~ msgstr "Resi"
 
 #~ msgid "Returned Order"
-#~ msgstr "Commande retournée"
+#~ msgstr "Reso"
 
 #, python-format
 #~ msgid "Returned order:"
-#~ msgstr "Commande retournée:"
+#~ msgstr "Reso:"
 
 #, python-format
 #~ msgid "Search Order"
-#~ msgstr "Recherche une commande"
+#~ msgstr "Ricerca ordine"
 
 #, python-format
 #~ msgid ""
@@ -172,33 +169,13 @@ msgstr "Commande retournée"
 #~ "\n"
 #~ "  * "
 #~ msgstr ""
-#~ "Impossible de charger certaines lignes de ticket car les produits ne sont "
-#~ "pas disponible dans le point de vente\n"
-#~ "Veuillez vérifier les lignes suivantes : \n"
+#~ "Impossibile caricare alcune righe d'ordine perchè i prodotti non sono "
+#~ "disponibili nella cache POS.\n"
+#~ "\n"
+#~ "Per favore controllare quelle righe :\n"
 #~ "\n"
 #~ "  * "
 
 #, python-format
 #~ msgid "Unknown Products"
-#~ msgstr "Produit inconnu"
-
-#~ msgid "Allow to duplicate done orders in this POS"
-#~ msgstr ""
-#~ "Autoriser à dupliquer des commandes réalisées dans l'interface tactile"
-
-#~ msgid "Allow to reprint done orders in this POS"
-#~ msgstr ""
-#~ "Autoriser à réimprimer des commandes réalisées dans l'interface tactile"
-
-#~ msgid "Allow to return done orders in this POS"
-#~ msgstr ""
-#~ "Autoriser à rembourser des commandes réalisées dans l'interface tactile"
-
-#~ msgid "Load Done Order Max Qty."
-#~ msgstr "Quantité maximale de commandes à charger"
-
-#~ msgid "Max. Done Orders Quantity To Load"
-#~ msgstr "Quantité maximale de commandes à charger"
-
-#~ msgid "Return Done Orders"
-#~ msgstr "Retourner une commande réalisée"
+#~ msgstr "Prodotti sconosciuti"
