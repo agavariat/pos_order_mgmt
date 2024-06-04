@@ -48,13 +48,18 @@ odoo.define("pos_order_mgmt.RefundOrderButton", function (require) {
             this._prepare_orderlines_from_order(order, refund_order);
 
             // Get Name
-            order.name = _t("Refund ") + refund_order.uid;
+            //order.name = _t("Refund ") + refund_order.uid;
 
             // Get to invoice
             order.set_to_invoice(refund_order.to_invoice);
 
             // Get returned Order
             order.returned_order_id = refund_order.backendId;
+
+            // Se prepara refundOrder con los campos de la orden original            
+            order.attributes = refund_order.attributes
+            order.Fv = refund_order.Fv
+            order.state = refund_order.state
 
             return order;
         }
