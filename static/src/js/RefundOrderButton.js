@@ -28,7 +28,7 @@ odoo.define("pos_order_mgmt.RefundOrderButton", function (require) {
             // Se asigna la instancia de la clase OrderManagementScreen a una variable que va a contener las ordenes de la base de datos.
             // const ordenes_database = this.orders
 
-            if(refund_order.document_type == 'ncde'){
+            if(refund_order.document_type == 'ncde' || refund_order.document_type == 'c'){
                 return this.showPopup('ErrorPopup', {
                     'title': _t('Nota Crédito'),
                     'body': _t(`La orden seleccionada es una Nota Crédito, no se puede realizar una devolución.`),
@@ -37,7 +37,7 @@ odoo.define("pos_order_mgmt.RefundOrderButton", function (require) {
                     },
                 });
             } 
-            else if (refund_order.document_type === 'dee') {
+            else if (refund_order.document_type === 'dee' || refund_order.document_type === 'f') {
                 try {
                     const output = await this.rpc({
                         model: 'pos.order',
